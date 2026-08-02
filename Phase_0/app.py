@@ -6,3 +6,5 @@ app = Flask(__name__)  # we are making an object of the flask that represent our
 def home(): # we define a function that is connected to our home page
     return "Hello Everyone ! This is my first flask app." # we return a string that is visible in our home page
 
+if __name__ == "__main__":
+    app.run(debug=True)
